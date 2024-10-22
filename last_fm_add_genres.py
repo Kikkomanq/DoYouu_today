@@ -4,10 +4,6 @@ import pandas as pd
 import time
 import logging
 import os
-from dotenv import load_dotenv
-
-
-load_dotenv()
 
 API_KEY = os.getenv('API_KEY')
 API_URL = "http://ws.audioscrobbler.com/2.0/"
