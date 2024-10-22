@@ -20,17 +20,19 @@ jobs:
       # Checkout the repository code
       - name: Checkout repository
         uses: actions/checkout@v3
-        
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'  # Specify your Python version
+
+      # Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           python -m playwright install
-           
-      - name: Run Python script  # Run Python script
+
+      - name: Run Python script
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: python main.py
