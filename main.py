@@ -87,7 +87,7 @@ def main():
     try:
         with sync_playwright() as playwright:
             logging.info("Launching browser with Playwright.")
-            browser = playwright.chromium.launch(headless=False)
+            browser = playwright.chromium.launch(headless=True)
             context = browser.new_context()
             page = context.new_page()
             logging.info("Browser launched successfully.")
