@@ -24,6 +24,9 @@ logging.basicConfig(
     ]
 )
 
+if API_KEY:
+    logging.info("API_KEY present")
+
 def is_latin(s):
     for ch in s:
         if ch.isalpha():
@@ -53,8 +56,9 @@ def get_artist_info(artist_name):
     }
     attempt = 0
     while attempt < MAX_RETRIES:
-        try:
+        try:            
             response = requests.get(API_URL, params=params)
+            logging.info(f"API INFO>>>> '{API_URL}' and response '{response.json()}'")
             if response.status_code == 200:
                 data = response.json()
                 if 'artist' in data:
