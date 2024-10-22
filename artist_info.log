@@ -1,0 +1,277 @@
+2024-10-22 11:47:39,456 INFO:Scrapping data start successfully
+2024-10-22 11:48:43,051 INFO:Scrapping data start successfully
+2024-10-22 11:48:43,461 INFO:Launching browser with Playwright.
+2024-10-22 11:48:44,702 INFO:Browser launched successfully.
+2024-10-22 11:48:45,772 INFO:Link: /tracks/2024-10-01
+2024-10-22 11:48:45,812 INFO:Link: /tracks/2024-10-02
+2024-10-22 11:48:45,845 INFO:Link: /tracks/2024-10-03
+2024-10-22 11:48:45,885 INFO:Link: /tracks/2024-10-04
+2024-10-22 11:48:45,925 INFO:Link: /tracks/2024-10-07
+2024-10-22 11:48:45,965 INFO:Link: /tracks/2024-10-08
+2024-10-22 11:48:46,023 INFO:Link: /tracks/2024-10-09
+2024-10-22 11:48:46,063 INFO:Link: /tracks/2024-10-10
+2024-10-22 11:48:46,112 INFO:Link: /tracks/2024-10-11
+2024-10-22 11:48:46,154 INFO:Link: /tracks/2024-10-14
+2024-10-22 11:48:46,195 INFO:Link: /tracks/2024-10-15
+2024-10-22 11:48:46,236 INFO:Link: /tracks/2024-10-16
+2024-10-22 11:48:46,277 INFO:Link: /tracks/2024-10-17
+2024-10-22 11:48:46,326 INFO:Link: /tracks/2024-10-18
+2024-10-22 11:48:46,360 INFO:Link: /tracks/2024-10-21
+2024-10-22 11:48:46,401 INFO:Link: /tracks/2024-10-22
+2024-10-22 11:48:46,401 INFO:Navigating to: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:52,339 INFO:wait for timeout5699
+2024-10-22 11:48:52,883 INFO:Starting data extract...
+2024-10-22 11:48:52,883 INFO:Title: CHEROKEE LOUISE
+2024-10-22 11:48:52,883 INFO:Artist: JONI MITCHELL
+2024-10-22 11:48:52,883 INFO:Album: Night Ride Home
+2024-10-22 11:48:52,883 INFO:Release Date: 01/01/1991
+2024-10-22 11:48:52,883 INFO:Timestamp: 11:48
+2024-10-22 11:48:52,883 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:52,891 INFO:----------------------------------------
+2024-10-22 11:48:53,254 INFO:Starting data extract...
+2024-10-22 11:48:53,254 INFO:Title: SUFFERING
+2024-10-22 11:48:53,254 INFO:Artist: GERVAIS
+2024-10-22 11:48:53,254 INFO:Album: Suffering
+2024-10-22 11:48:53,254 INFO:Release Date: 16/12/2020
+2024-10-22 11:48:53,254 INFO:Timestamp: 11:38
+2024-10-22 11:48:53,254 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:53,262 INFO:----------------------------------------
+2024-10-22 11:48:53,635 INFO:Starting data extract...
+2024-10-22 11:48:53,635 INFO:Title: HARVEST HOUR
+2024-10-22 11:48:53,635 INFO:Artist: GREENSKEEPERS
+2024-10-22 11:48:53,635 INFO:Album: Gypsy Surf
+2024-10-22 11:48:53,635 INFO:Release Date: 23/12/2013
+2024-10-22 11:48:53,635 INFO:Timestamp: 11:29
+2024-10-22 11:48:53,643 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:53,643 INFO:----------------------------------------
+2024-10-22 11:48:54,007 INFO:Starting data extract...
+2024-10-22 11:48:54,007 INFO:Title: GRAB ANGELS BY THEIR ANKLES
+2024-10-22 11:48:54,007 INFO:Artist: RADICAL NEPTUNE
+2024-10-22 11:48:54,007 INFO:Album: MoonRock ~Jazz
+2024-10-22 11:48:54,007 INFO:Release Date: 28/04/2021
+2024-10-22 11:48:54,007 INFO:Timestamp: 11:28
+2024-10-22 11:48:54,007 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:54,007 INFO:----------------------------------------
+2024-10-22 11:48:54,353 INFO:Starting data extract...
+2024-10-22 11:48:54,353 INFO:Title: PARADISE WALK
+2024-10-22 11:48:54,353 INFO:Artist: NEU!
+2024-10-22 11:48:54,361 INFO:Album: NEU!
+2024-10-22 11:48:54,361 INFO:Release Date: 10/05/2010
+2024-10-22 11:48:54,361 INFO:Timestamp: 11:23
+2024-10-22 11:48:54,361 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:54,361 INFO:----------------------------------------
+2024-10-22 11:48:54,742 INFO:Starting data extract...
+2024-10-22 11:48:54,742 INFO:Title: YOUNG DONNY
+2024-10-22 11:48:54,742 INFO:Artist: HUGH B
+2024-10-22 11:48:54,742 INFO:Album: Brainwashing
+2024-10-22 11:48:54,742 INFO:Release Date: 19/04/2024
+2024-10-22 11:48:54,742 INFO:Timestamp: 11:19
+2024-10-22 11:48:54,742 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:54,750 INFO:----------------------------------------
+2024-10-22 11:48:55,113 INFO:Starting data extract...
+2024-10-22 11:48:55,121 INFO:Title: ONE OF TWO
+2024-10-22 11:48:55,121 INFO:Artist: WAYNE KRANTZ
+2024-10-22 11:48:55,121 INFO:Album: Signals
+2024-10-22 11:48:55,121 INFO:Release Date: 23/07/2007
+2024-10-22 11:48:55,121 INFO:Timestamp: 11:15
+2024-10-22 11:48:55,121 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:55,121 INFO:----------------------------------------
+2024-10-22 11:48:55,484 INFO:Starting data extract...
+2024-10-22 11:48:55,484 INFO:Title: DETOUR AHEAD - LIVE / TAKE 2
+2024-10-22 11:48:55,484 INFO:Artist: BILL EVANS TRIO
+2024-10-22 11:48:55,484 INFO:Album: The Complete Village Vanguard Recordings, 1961
+2024-10-22 11:48:55,484 INFO:Release Date: 29/04/2022
+2024-10-22 11:48:55,492 INFO:Timestamp: 10:53
+2024-10-22 11:48:55,492 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:55,492 INFO:----------------------------------------
+2024-10-22 11:48:55,865 INFO:Starting data extract...
+2024-10-22 11:48:55,865 INFO:Title: SONG FOR MARY BLACK
+2024-10-22 11:48:55,865 INFO:Artist: ELAINE HOWLEY
+2024-10-22 11:48:55,865 INFO:Album: Wacker That
+2024-10-22 11:48:55,865 INFO:Release Date: 18/10/2019
+2024-10-22 11:48:55,865 INFO:Timestamp: 10:50
+2024-10-22 11:48:55,873 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:55,874 INFO:----------------------------------------
+2024-10-22 11:48:56,218 INFO:Starting data extract...
+2024-10-22 11:48:56,218 INFO:Title: OPENING OF A FIELD
+2024-10-22 11:48:56,218 INFO:Artist: MARY JANE DUNPHE
+2024-10-22 11:48:56,218 INFO:Album: Stage of Love
+2024-10-22 11:48:56,218 INFO:Release Date: 18/08/2023
+2024-10-22 11:48:56,218 INFO:Timestamp: 10:39
+2024-10-22 11:48:56,226 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:56,227 INFO:----------------------------------------
+2024-10-22 11:48:56,590 INFO:Starting data extract...
+2024-10-22 11:48:56,590 INFO:Title: DESIRE
+2024-10-22 11:48:56,598 INFO:Artist: 69
+2024-10-22 11:48:56,598 INFO:Album: Legendary Adventures Of A Filter King
+2024-10-22 11:48:56,598 INFO:Release Date: 02/08/2011
+2024-10-22 11:48:56,598 INFO:Timestamp: 10:27
+2024-10-22 11:48:56,598 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:56,598 INFO:----------------------------------------
+2024-10-22 11:48:56,961 INFO:Starting data extract...
+2024-10-22 11:48:56,961 INFO:Title: I WOULD DIE 4 U (EXTENDED VERSION)
+2024-10-22 11:48:56,969 INFO:Artist: PRINCE
+2024-10-22 11:48:56,969 INFO:Album: Purple Rain Deluxe (Expanded Edition)
+2024-10-22 11:48:56,969 INFO:Release Date: 23/06/2017
+2024-10-22 11:48:56,969 INFO:Timestamp: 10:17
+2024-10-22 11:48:56,969 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:56,969 INFO:----------------------------------------
+2024-10-22 11:48:57,329 INFO:Starting data extract...
+2024-10-22 11:48:57,329 INFO:Title: GLAD TO KNOW YOU
+2024-10-22 11:48:57,329 INFO:Artist: IDJUT BOYS
+2024-10-22 11:48:57,329 INFO:Album: Press Play
+2024-10-22 11:48:57,329 INFO:Release Date: 18/04/2005
+2024-10-22 11:48:57,329 INFO:Timestamp: 10:15
+2024-10-22 11:48:57,337 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:57,337 INFO:----------------------------------------
+2024-10-22 11:48:57,717 INFO:Starting data extract...
+2024-10-22 11:48:57,717 INFO:Title: HILL STREET BLUES: THEME
+2024-10-22 11:48:57,717 INFO:Artist: MIKE POST
+2024-10-22 11:48:57,717 INFO:Album: This Is the Return of Cult Fiction
+2024-10-22 11:48:57,717 INFO:Release Date: 31/12/1995
+2024-10-22 11:48:57,725 INFO:Timestamp: 10:09
+2024-10-22 11:48:57,725 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:48:57,725 INFO:----------------------------------------
+2024-10-22 11:48:57,725 INFO:Starting update genre process...
+2024-10-22 11:48:59,571 ERROR:Error 400 while fetching data for artist 'JONI MITCHELL'.
+2024-10-22 11:49:46,924 INFO:Scrapping data start successfully
+2024-10-22 11:49:47,461 INFO:Launching browser with Playwright.
+2024-10-22 11:49:48,566 INFO:Browser launched successfully.
+2024-10-22 11:49:49,738 INFO:Link: /tracks/2024-10-01
+2024-10-22 11:49:49,779 INFO:Link: /tracks/2024-10-02
+2024-10-22 11:49:49,812 INFO:Link: /tracks/2024-10-03
+2024-10-22 11:49:49,845 INFO:Link: /tracks/2024-10-04
+2024-10-22 11:49:49,885 INFO:Link: /tracks/2024-10-07
+2024-10-22 11:49:49,926 INFO:Link: /tracks/2024-10-08
+2024-10-22 11:49:49,967 INFO:Link: /tracks/2024-10-09
+2024-10-22 11:49:50,008 INFO:Link: /tracks/2024-10-10
+2024-10-22 11:49:50,049 INFO:Link: /tracks/2024-10-11
+2024-10-22 11:49:50,090 INFO:Link: /tracks/2024-10-14
+2024-10-22 11:49:50,131 INFO:Link: /tracks/2024-10-15
+2024-10-22 11:49:50,172 INFO:Link: /tracks/2024-10-16
+2024-10-22 11:49:50,213 INFO:Link: /tracks/2024-10-17
+2024-10-22 11:49:50,255 INFO:Link: /tracks/2024-10-18
+2024-10-22 11:49:50,295 INFO:Link: /tracks/2024-10-21
+2024-10-22 11:49:50,344 INFO:Link: /tracks/2024-10-22
+2024-10-22 11:49:50,344 INFO:Navigating to: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:54,520 INFO:wait for timeout3942
+2024-10-22 11:49:55,000 INFO:Starting data extract...
+2024-10-22 11:49:55,000 INFO:Title: CHEROKEE LOUISE
+2024-10-22 11:49:55,000 INFO:Artist: JONI MITCHELL
+2024-10-22 11:49:55,000 INFO:Album: Night Ride Home
+2024-10-22 11:49:55,007 INFO:Release Date: 01/01/1991
+2024-10-22 11:49:55,007 INFO:Timestamp: 11:48
+2024-10-22 11:49:55,007 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:55,007 INFO:----------------------------------------
+2024-10-22 11:49:55,371 INFO:Starting data extract...
+2024-10-22 11:49:55,371 INFO:Title: SUFFERING
+2024-10-22 11:49:55,371 INFO:Artist: GERVAIS
+2024-10-22 11:49:55,371 INFO:Album: Suffering
+2024-10-22 11:49:55,371 INFO:Release Date: 16/12/2020
+2024-10-22 11:49:55,380 INFO:Timestamp: 11:38
+2024-10-22 11:49:55,381 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:55,381 INFO:----------------------------------------
+2024-10-22 11:49:55,751 INFO:Starting data extract...
+2024-10-22 11:49:55,759 INFO:Title: HARVEST HOUR
+2024-10-22 11:49:55,759 INFO:Artist: GREENSKEEPERS
+2024-10-22 11:49:55,759 INFO:Album: Gypsy Surf
+2024-10-22 11:49:55,759 INFO:Release Date: 23/12/2013
+2024-10-22 11:49:55,759 INFO:Timestamp: 11:29
+2024-10-22 11:49:55,759 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:55,759 INFO:----------------------------------------
+2024-10-22 11:49:56,148 INFO:Starting data extract...
+2024-10-22 11:49:56,148 INFO:Title: GRAB ANGELS BY THEIR ANKLES
+2024-10-22 11:49:56,148 INFO:Artist: RADICAL NEPTUNE
+2024-10-22 11:49:56,156 INFO:Album: MoonRock ~Jazz
+2024-10-22 11:49:56,157 INFO:Release Date: 28/04/2021
+2024-10-22 11:49:56,157 INFO:Timestamp: 11:28
+2024-10-22 11:49:56,157 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:56,157 INFO:----------------------------------------
+2024-10-22 11:49:56,521 INFO:Starting data extract...
+2024-10-22 11:49:56,521 INFO:Title: PARADISE WALK
+2024-10-22 11:49:56,521 INFO:Artist: NEU!
+2024-10-22 11:49:56,521 INFO:Album: NEU!
+2024-10-22 11:49:56,521 INFO:Release Date: 10/05/2010
+2024-10-22 11:49:56,521 INFO:Timestamp: 11:23
+2024-10-22 11:49:56,521 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:56,521 INFO:----------------------------------------
+2024-10-22 11:49:56,866 INFO:Starting data extract...
+2024-10-22 11:49:56,866 INFO:Title: YOUNG DONNY
+2024-10-22 11:49:56,866 INFO:Artist: HUGH B
+2024-10-22 11:49:56,866 INFO:Album: Brainwashing
+2024-10-22 11:49:56,866 INFO:Release Date: 19/04/2024
+2024-10-22 11:49:56,866 INFO:Timestamp: 11:19
+2024-10-22 11:49:56,875 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:56,875 INFO:----------------------------------------
+2024-10-22 11:49:57,268 INFO:Starting data extract...
+2024-10-22 11:49:57,268 INFO:Title: ONE OF TWO
+2024-10-22 11:49:57,268 INFO:Artist: WAYNE KRANTZ
+2024-10-22 11:49:57,268 INFO:Album: Signals
+2024-10-22 11:49:57,268 INFO:Release Date: 23/07/2007
+2024-10-22 11:49:57,268 INFO:Timestamp: 11:15
+2024-10-22 11:49:57,268 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:57,276 INFO:----------------------------------------
+2024-10-22 11:49:57,648 INFO:Starting data extract...
+2024-10-22 11:49:57,648 INFO:Title: DETOUR AHEAD - LIVE / TAKE 2
+2024-10-22 11:49:57,648 INFO:Artist: BILL EVANS TRIO
+2024-10-22 11:49:57,656 INFO:Album: The Complete Village Vanguard Recordings, 1961
+2024-10-22 11:49:57,656 INFO:Release Date: 29/04/2022
+2024-10-22 11:49:57,656 INFO:Timestamp: 10:53
+2024-10-22 11:49:57,656 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:57,656 INFO:----------------------------------------
+2024-10-22 11:49:58,027 INFO:Starting data extract...
+2024-10-22 11:49:58,027 INFO:Title: SONG FOR MARY BLACK
+2024-10-22 11:49:58,027 INFO:Artist: ELAINE HOWLEY
+2024-10-22 11:49:58,027 INFO:Album: Wacker That
+2024-10-22 11:49:58,035 INFO:Release Date: 18/10/2019
+2024-10-22 11:49:58,035 INFO:Timestamp: 10:50
+2024-10-22 11:49:58,035 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:58,035 INFO:----------------------------------------
+2024-10-22 11:49:58,400 INFO:Starting data extract...
+2024-10-22 11:49:58,400 INFO:Title: OPENING OF A FIELD
+2024-10-22 11:49:58,400 INFO:Artist: MARY JANE DUNPHE
+2024-10-22 11:49:58,400 INFO:Album: Stage of Love
+2024-10-22 11:49:58,408 INFO:Release Date: 18/08/2023
+2024-10-22 11:49:58,408 INFO:Timestamp: 10:39
+2024-10-22 11:49:58,408 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:58,408 INFO:----------------------------------------
+2024-10-22 11:49:58,778 INFO:Starting data extract...
+2024-10-22 11:49:58,778 INFO:Title: DESIRE
+2024-10-22 11:49:58,778 INFO:Artist: 69
+2024-10-22 11:49:58,778 INFO:Album: Legendary Adventures Of A Filter King
+2024-10-22 11:49:58,778 INFO:Release Date: 02/08/2011
+2024-10-22 11:49:58,778 INFO:Timestamp: 10:27
+2024-10-22 11:49:58,778 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:58,778 INFO:----------------------------------------
+2024-10-22 11:49:59,225 INFO:Starting data extract...
+2024-10-22 11:49:59,225 INFO:Title: I WOULD DIE 4 U (EXTENDED VERSION)
+2024-10-22 11:49:59,233 INFO:Artist: PRINCE
+2024-10-22 11:49:59,233 INFO:Album: Purple Rain Deluxe (Expanded Edition)
+2024-10-22 11:49:59,233 INFO:Release Date: 23/06/2017
+2024-10-22 11:49:59,233 INFO:Timestamp: 10:17
+2024-10-22 11:49:59,233 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:59,233 INFO:----------------------------------------
+2024-10-22 11:49:59,658 INFO:Starting data extract...
+2024-10-22 11:49:59,658 INFO:Title: GLAD TO KNOW YOU
+2024-10-22 11:49:59,658 INFO:Artist: IDJUT BOYS
+2024-10-22 11:49:59,658 INFO:Album: Press Play
+2024-10-22 11:49:59,658 INFO:Release Date: 18/04/2005
+2024-10-22 11:49:59,658 INFO:Timestamp: 10:15
+2024-10-22 11:49:59,658 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:49:59,666 INFO:----------------------------------------
+2024-10-22 11:50:00,005 INFO:Starting data extract...
+2024-10-22 11:50:00,005 INFO:Title: HILL STREET BLUES: THEME
+2024-10-22 11:50:00,012 INFO:Artist: MIKE POST
+2024-10-22 11:50:00,016 INFO:Album: This Is the Return of Cult Fiction
+2024-10-22 11:50:00,016 INFO:Release Date: 31/12/1995
+2024-10-22 11:50:00,016 INFO:Timestamp: 10:09
+2024-10-22 11:50:00,022 INFO:URL: https://doyoutrackid.com/tracks/2024-10-22
+2024-10-22 11:50:00,022 INFO:----------------------------------------
+2024-10-22 11:50:00,022 INFO:Starting update genre process...
+2024-10-22 11:50:01,828 ERROR:Error 400 while fetching data for artist 'JONI MITCHELL'.
+2024-10-22 11:50:31,835 INFO:Retrying (1/2) for artist 'JONI MITCHELL'...
+2024-10-22 11:50:32,032 ERROR:Error 400 while fetching data for artist 'JONI MITCHELL'.
+2024-10-22 11:51:02,056 INFO:Retrying (2/2) for artist 'JONI MITCHELL'...
+2024-10-22 11:51:02,056 INFO:Artist 'JONI MITCHELL' not found or data unavailable.
+
+2024-10-22 11:51:03,268 ERROR:Error 400 while fetching data for artist 'GERVAIS'.
