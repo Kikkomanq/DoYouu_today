@@ -31,14 +31,11 @@ jobs:
         run: |
           pip install -r requirements.txt
           python -m playwright install
-
-      - name: Test API_KEY presence
-        env:
-          API_KEY: ${{ secrets.API_KEY }}
-        run: |
-          echo "API_KEY is: $API_KEY"
       
-      - name: Run Python script
+      - name: Run main Python script
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: python main.py
+
+      - name: Run Python script to process CSV
+        run: python process_csv.py

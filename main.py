@@ -5,7 +5,7 @@ import pandas as pd
 
 url = f"https://doyoutrackid.com/"
 
-output_csv_file = 'latest_with_genres.csv'
+output_csv_file = 'output/generated.csv'
 
 logging.basicConfig(
     level=logging.INFO,
