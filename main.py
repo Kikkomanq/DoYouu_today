@@ -5,7 +5,7 @@ import pandas as pd
 
 url = f"https://doyoutrackid.com/"
 
-output_csv_file = 'output/generated.csv'
+# output_csv_file = 'output/generated.csv'
 
 logging.basicConfig(
     level=logging.INFO,
@@ -93,7 +93,7 @@ def main():
             logging.info("Browser launched successfully.")
             tracks = run(page, data_list)
             df = pd.DataFrame(tracks)
-            df.to_csv(output_csv_file, index=False)
+            df.to_csv('output/generated.csv', index=False)
             logging.info(f"Scraped a total of {len(tracks)} tracks.")
             logging.info("Data successfully loaded using load_data().")
             browser.close()
