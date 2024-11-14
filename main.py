@@ -68,7 +68,7 @@ def run(page: Page, data_list: list):
         else:
             # If there is no <a> tag inside, print that no link was found
             logging.info('No link found in this list item.')
-    latest=href_links[-1:]
+    latest=href_links[-2:]
     for href in latest:
         full_url = "https://doyoutrackid.com" + href
         logging.info(f'Navigating to: {full_url}')
