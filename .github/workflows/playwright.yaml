@@ -1,41 +1,44 @@
-name: Playwright scrap
+name: Playwright Scrap and Deploy
 
-# Run the workflow on pushes to the main branch and pull requests
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
-# Define the jobs that will run
 jobs:
-  latest-show:
-    # Define the operating system and environment
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    # Define the steps
     steps:
-      # Checkout the repository code
+      # Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'  # Specify your Python version
+          python-version: '3.10'
 
-      # Install dependencies
+      # Install Python dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           python -m playwright install
-      
+
+      # Run main.py script
       - name: Run main Python script
         env:
           API_KEY: ${{ secrets.API_KEY }}
         run: python main.py
 
-      - name: Run Python script to process CSV
-        run: python process_csv.py
+      # Render Quarto site
+      - name: Render Quarto site
+        run: quarto render
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs

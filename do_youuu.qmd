@@ -1,0 +1,115 @@
+---
+title: "DoYOuu Oct 17th"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+Demonstration of a sunburst genre plot, for a given music show  [click here](https://doyoutrackid.com/tracks/2024-10-17).
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "Distribution of Genres on October 2nd Show"
+
+import pandas as pd
+import plotly.express as px
+
+# Path to your CSV file
+csv_file_path = 'output/generated.csv'
+
+# Specify the column name that contains genres
+genre_column = 'Genres'  # Change this if your genre column has a different name
+
+# Read the CSV file using pandas
+# Assuming that the CSV has a header row
+
+df_full = pd.read_csv(csv_file_path, encoding='utf-8')
+
+# Initialize lists to store genres and subgenres
+genres = []
+subgenres = []
+
+# Determine the delimiter used within the genre column
+# Common delimiters: ',', ';', '|'
+# Here, we'll try ',' first. Change to ';' or '|' if needed.
+delimiter = ','  # Adjust this based on your CSV's format
+
+# Iterate over each row in the DataFrame
+for index, row in df_full.iterrows():
+    genre_data = row[genre_column]
+    
+    # Skip if genre data is missing or NaN
+    if pd.isna(genre_data):
+        continue
+    
+    # Split genres and subgenres based on the delimiter
+    parts = [part.strip() for part in str(genre_data).split(delimiter)]
+    
+    
+    # Assign the first part as the main genre
+    genre = parts[0] if parts else "Unknown"
+    
+    # Check if there are subgenres present
+    if len(parts) > 1 and any(parts[1:]):
+        # Iterate over subgenres (skip empty strings)
+        for subgenre in parts[1:]:
+            if subgenre:  # Ensure subgenre is not empty
+                genres.append(genre)
+                subgenres.append(subgenre)
+            else:
+                genres.append(genre)
+                subgenres.append("Unknown")
+    else:
+        # Assign 'Unknown' as subgenre for entries without subgenres
+        genres.append(genre)
+        subgenres.append("Unknown")
+
+# Create a new DataFrame with the extracted genres and subgenres
+df_genres = pd.DataFrame({
+    "genre": genres,
+    "subgenre": subgenres
+})
+
+# Count the occurrences of each (genre, subgenre) pair
+subgenre_counts = df_genres.groupby(["genre", "subgenre"]).size().reset_index(name="count")
+
+# Convert counts to float for potential scaling
+subgenre_counts["count"] = subgenre_counts["count"].astype(float)
+
+# Downscale the count of "Unknown" subgenres if necessary
+# This step helps in better visualizing the distribution by reducing the prominence of "Unknown" categories
+subgenre_counts.loc[
+    (subgenre_counts["subgenre"] == "Unknown"),
+    "count"
+] /= 3  # Adjust the divisor as needed
+
+# Optional: Round the counts to two decimal places for better readability
+subgenre_counts["count"] = subgenre_counts["count"].round(2)
+
+# Define desired figure size
+desired_width = 1000  # in pixels
+desired_height = 600   # in pixels
+
+# Create the sunburst chart with increased size
+fig = px.sunburst(
+    subgenre_counts,
+    path=["genre", "subgenre"],
+    values="count",
+    color="genre",
+    color_discrete_sequence=px.colors.qualitative.Pastel,
+    hover_data=["genre", "subgenre", "count"],
+    width=desired_width,
+    height=desired_height
+)
+
+# Customize the layout
+fig.update_layout(
+    title="Genre and Subgenre Distribution (With Downscaled 'Unknown' Subgenres)",
+    margin=dict(t=80, l=0, r=0, b=0)  # Adjust top margin to accommodate title
+)
+
+# Display the plot
+fig.show()
+
+```

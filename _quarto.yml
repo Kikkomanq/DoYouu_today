@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "DoYouu Genre Plots"
+  navbar:
+    left:
+      - text: Home
+        href: https://kikkomanq.github.io/DoYouu_today/
