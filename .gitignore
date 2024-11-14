@@ -3,3 +3,5 @@ __pycache__/last_fm_add_genres.cpython-310.pyc
 .vscode/launch.json
 .env
 artist_info.log
+
+/.quarto/
