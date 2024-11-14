@@ -1,4 +1,4 @@
-name: Playwright Scrap and Update Site
+name: Playwright Scrap and Deploy
 
 on:
   push:
@@ -9,7 +9,7 @@ permissions:
   contents: write  # Ensure the workflow can push to the repository
 
 jobs:
-  build-and-commit:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -36,16 +36,15 @@ jobs:
           wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.3/quarto-1.6.3-linux-amd64.deb
           sudo apt-get update -y
           sudo apt-get install -y ./quarto-1.6.3-linux-amd64.deb
-          rm quarto-1.6.3-linux-amd64.deb  # Delete the .deb file
+          rm quarto-1.6.3-linux-amd64.deb  # Delete the .deb file to prevent committing
 
       - name: Render Quarto site
         run: quarto render
 
-      # New step: Commit changes back to the main branch
-      - name: Commit changes
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Automated update by GitHub Actions"
-          git push origin main
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site  # Replace with your Quarto output directory
+          publish_branch: gh-pages
+          force_orphan: true  # Optional: creates a new commit history on gh-pages
