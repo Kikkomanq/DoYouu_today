@@ -36,8 +36,7 @@ jobs:
           wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.3/quarto-1.6.3-linux-amd64.deb
           sudo apt-get update -y
           sudo apt-get install -y ./quarto-1.6.3-linux-amd64.deb
-
-
+          rm quarto-1.6.3-linux-amd64.deb  # Delete the .deb file
 
       - name: Render Quarto site
         run: quarto render
